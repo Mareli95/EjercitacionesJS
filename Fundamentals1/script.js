@@ -109,15 +109,34 @@ console.log(x, y);
 */
 
 //* String and Template Literal
-const firstName = 'Mariana';
-const job = 'designer';
-const birthYear = 1995;
-const year = 2037;
+// const firstName = 'Mariana';
+// const job = 'designer';
+// const birthYear = 1995;
+// const year = 2037;
 
-const mariana = 'I´m ' + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
-console.log(mariana);
+// const mariana = 'I´m ' + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+// console.log(mariana);
 
-const marianaNew = `I´m ${firstName}'`;
-console.log(marianaNew);
+// const marianaNew = `I´m ${firstName}'`;
+// console.log(marianaNew);
 
 //* END String and Template Literal
+
+//* IF Else Statement
+// const age = 18;
+// if (age >= 18) {
+// 	console.log('Sara puede empezar a navegar');
+// } else {
+// 	const yearLeft = 18 - age;
+// 	console.log(`Sara es muy joven, espera otros ${yearLeft} años`);
+// }
+
+// let birthyear = 2012;
+// let century;
+// if (birthyear <= 2000) {
+// 	century = 20;
+// } else {
+// 	century = 21;
+// }
+// console.log(century);
+//* END
