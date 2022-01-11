@@ -1,4 +1,4 @@
-// // Values and variables
+//**Values and variables
 console.log('--------');
 console.log('Assigments challenge');
 console.log('--------');
@@ -52,3 +52,14 @@ if (population > averagePopulation) {
 }
 
 // * END Taking Decisions: if / else Statements
+//*Type Conversion and Coercion
+console.log('Coercion and Conversión-----');
+
+let n = '9' - '5';
+let n1 = '19' - '13' + '17';
+let n2 = '19' - '13' + 17;
+let n3 = '123' < 57;
+let n4 = 5 + 6 + '4' + 9 - 4 - 2;
+
+console.log(n, n1, n2, n3, n4);
+// *End
